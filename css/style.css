@@ -1,0 +1,12 @@
+:root {
+  --main-color: #fa804c;
+  --secondary-color: #363958;
+}
+
+img {
+  max-width: 100%;
+}
+
+.color__text {
+  color: var(--main-color);
+}
