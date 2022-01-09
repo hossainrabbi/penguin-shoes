@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Font-Awesome CSS -->
+    <link rel="stylesheet" href="./css/all.min.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -14,7 +16,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="./images/logo.svg" alt="Penguin Shoes" />
@@ -52,22 +54,26 @@
       </nav>
       <div class="header__area">
         <div class="container">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-md-6">
               <div class="header__image">
                 <img src="./images/main-shoes.png" alt="Header Shoes" />
               </div>
             </div>
             <div class="col-md-6">
-              <div class="header__text">
-                <h1>
-                  <span class="color__text"> Nike React </span> Infinity Run 2
-                </h1>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
-                <button class="btn btn-primary">BUY NOW</button>
+              <div class="d-flex justify-content-center">
+                <div class="header__text">
+                  <h1>
+                    <span class="color__text"> Nike React </span> Infinity Run 2
+                  </h1>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing <br />
+                    and typesetting industry.
+                  </p>
+                  <button class="btn btn-custom">
+                    <i class="fas fa-shopping-cart"></i> <span>BUY NOW</span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -77,5 +83,7 @@
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Font-Awesome -->
+    <script src="./js/all.min.js"></script>
   </body>
 </html>
