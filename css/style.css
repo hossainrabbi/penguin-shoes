@@ -54,6 +54,12 @@ h4 {
   color: var(--secondary-color);
 }
 
+.card-title {
+  font-size: 24px;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
 /* HEADER AREA */
 header {
   background-color: var(--header-background-color);
@@ -134,12 +140,6 @@ header .navbar-nav .nav-link {
   padding-bottom: 0;
 }
 
-.product__area .card .card-body .card-title {
-  font-size: 24px;
-  color: var(--secondary-color);
-  font-weight: 600;
-}
-
 .product__area .card .card-body .color__text {
   font-size: 36px;
 }
@@ -147,3 +147,5 @@ header .navbar-nav .nav-link {
 .product__area .formal__shoes .card:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
+
+/* SHOP QUESTION AREA */
