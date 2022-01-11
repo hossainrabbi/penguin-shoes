@@ -66,6 +66,10 @@ header {
   padding-bottom: 100px;
 }
 
+header .navbar-toggler:focus {
+  box-shadow: 0 0 0 2px var(--gray-black);
+}
+
 header nav.navbar {
   padding: 20px 0;
 }
@@ -128,11 +132,11 @@ header .navbar-nav .nav-link {
 }
 
 .product__area .card__image:hover {
-  transform: skewX(-10deg);
-  -webkit-transform: skewX(-10deg);
-  -moz-transform: skewX(-10deg);
-  -ms-transform: skewX(-10deg);
-  -o-transform: skewX(-10deg);
+  transform: skewX(-6deg);
+  -webkit-transform: skewX(-6deg);
+  -moz-transform: skewX(-6deg);
+  -ms-transform: skewX(-6deg);
+  -o-transform: skewX(-6deg);
 }
 
 .product__area .card .card-body {
@@ -148,4 +152,27 @@ header .navbar-nav .nav-link {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-/* SHOP QUESTION AREA */
+/* RESPONSIVE CSS */
+@media (max-width: 992px) {
+  .header__text h1 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__text h1 {
+    font-size: 80px;
+  }
+
+  .header__text__area {
+    justify-content: flex-start;
+  }
+
+  .section__title {
+    text-align: center;
+  }
+
+  .shop__question__area {
+    text-align: center;
+  }
+}
